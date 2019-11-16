@@ -1,0 +1,22 @@
+{
+  "name": "sportsbook-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gohandrogo/coding-challeng-sportsbook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gohandrogo/coding-challeng-sportsbook/issues"
+  },
+  "homepage": "https://github.com/gohandrogo/coding-challeng-sportsbook#readme",
+  "dependencies": {
+    "bulma": "^0.8.0"
+  }
+}

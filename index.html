@@ -5,15 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bulma/css/bulma.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
-    <!-- todo paginator -->
-    <!-- todo show content to screen -->
-    hello there
+<body class="columns">
+    <div class="column">
+            <h1 class="title">Alejandro Londono: Sportsbook Challenge</h1>
+            <div>
+                <button class="button is-black" id="previous-page">previous</button>
+                <button class="button is-black" id="next-page">next</button>
+            </div>
+            <div>
+                <button class="button" id="group-by-category">group by category</button>
+            </div>
+            <div>
+                <button class="button" id="group-by-difficulty">group by difficulty</button>
+            </div>
+            <div>
+                <button class="button" id="group-by-type">group by type</button>
+            </div>
+    </div>
     <div id="content"><div/>
-    <button id="previous-page">previous</button>
-    <button id="next-page">next</button>
     <script src="index.js"></script>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </body>
 </html>

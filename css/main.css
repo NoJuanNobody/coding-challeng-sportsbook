@@ -1,0 +1,13 @@
+
+button{
+    display:block;
+    margin:5px;
+}
+body{
+    padding:50px;
+}
+.list-item{
+    border:1px solid #FFF;
+    margin:15px;
+    color:white;
+}
